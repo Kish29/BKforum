@@ -10,4 +10,24 @@ html, body {
 
 #myCanvas {
     display: block;
+    position: absolute;
+    z-index: -2;
+}
+
+#login-wrapper {
+    width: 350px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    /*使中心点在正中间*/
+    transform: translate(-50%, -50%);
+    background: white;
+    position: relative;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+#header {
+    margin: auto;
+    text-align: center;
 }
